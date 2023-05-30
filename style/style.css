@@ -1,0 +1,179 @@
+ {
+    padding: 0;
+    margin: 0;
+
+    height: auto;
+    width: auto;
+    
+        display:block;
+        
+
+        
+
+}
+
+
+table,
+th,
+td {
+   margin-left:280px;
+display: block-inline;
+    border:solid;
+ 
+    border-color:rgb(100, 56, 67) ;
+    font-size: larger;
+    column-gap: 1000;
+    row-gap: 1000;
+    border-collapse: collapse;
+    padding: 50px;
+}
+.foodTable  th{font: 2em sans-serif;
+    color:rgb(100, 56, 67);
+    text-shadow: transparent;
+   
+}
+.foodTable  td{font: 2em sans-serif;
+    color:rgb(100, 56, 67);
+    text-shadow: transparent;
+    
+    
+}
+
+
+
+header h1 {
+   
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, serif;
+    font-size: 90px;
+    color: white;
+    text-shadow: 2px 2px 2px #bdaabb;
+    padding-top: 50px;
+   
+    padding-right: 20%;
+      padding-left:280px ;
+     
+}
+
+.form1{
+ display: table-;  ;
+text-align: center;;
+margin: top 300px;
+padding-top:20px;
+
+}
+.form1 ,div ,input{
+ 
+  padding left: 50px;;
+  display: block;
+  display: table-cell;;
+
+}
+.form1,label{
+  display: table-cell;
+}
+header {
+ background:rgb(100, 56, 67);
+margin:0;
+
+padding: 20px;
+
+ }
+
+
+
+
+ul{padding-left:450px ;}
+ul a{
+    padding-left:15px ;
+    color:white;
+  
+    display: inline;
+    padding: bottom 0px;
+}
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+    justify-content: space-between;
+    
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 70px;
+    height: 40px;
+     background-color:rgb(100, 56, 67);
+}
+
+.footer p{
+    float:center; 
+    margin: 10px 0px;  
+    color: #bdaabb;
+}
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px 0px;
+    border-radius: 50%;
+    float: left;
+   color:  #bdaabb;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+ input,select {
+  
+    width:400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display:block;
+    border: 1px solid rgba(160, 94, 94,5);
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 15px;
+    background-color: rgba(241, 228, 211,.7);
+ 
+  }  
+  option{
+    font-size: 15px;
+    background-color: rgba(241, 228, 211,.7);
+  }
+  button {
+    width: 400px;
+    background-color: rgba(241, 228, 211,.6);
+    color:rgb(100, 56, 67);
+    font-size: 20px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+ 
+  button:hover {
+    background-color: rgba(241, 228, 211,.8);
+    color:rgb(100, 56, 67);
+  }
+  label{
+    color:rgb(100, 56, 67);
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: rgba(241, 228, 211,.6);
+    border-radius: 8px ;
+  }
+
+ 
+html {
+   background-color: rgba(241, 228, 211,.7)
+  background-size: cover; 
+    line-height: 1;
+   align-self: center; 
+   text-align:center;
+ 
+}
