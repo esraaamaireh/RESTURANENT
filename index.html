@@ -9,14 +9,9 @@
 
     <link rel='stylesheet' href="./style/style.css">
     <link rel='stylesheet' href="https://colorhunt.co/palette/1a120b3c2a21d5cea3e5e5cb">
-    <link rel="icon" href="images/res-icon.ico" type="image/icon type">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
     <link rel='stylesheet' href="https://fonts.googleapis.com/css?family=Tangerine">
     <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>HOME</title>
+    <title>RESTAURANT</title>
 </head>
 
 <body>
@@ -26,49 +21,50 @@
         <ul class="nav">
             <a href="./index.html">HOME</a>
 
-            <a href="./statistics.html">STATISTICS</a>
+            <a href="">ABOUT</a>
 
         </ul>
     </header>
     <main>
+        <div class="card">
 
-        <section class="form1">
-            <div class="card">
-              
-        
-                        <h2>Choose Your Order</h2>
-                  
-
-            <form id="foodForm" class="card-form">
+            <form id="foodForm">
 
 
-                <div class="input">
-                    <label for="foodName" class="input-label">Food Name</label>
-                    <input type="text" id="foodName" , class="input-field",name="foodname" />
+                <div>
+                    <label for="foodName"  , class="input-label">Food Name</label>
+                    <input type="text" , class="input-field" id="foodName" ,name="foodname"/>
                 </div>
-                <div class="input">
-                    <label for="Price" , class="input-label">Price</label>
-                    <input type="text" name="foodprice" id="price" , , class="input-field"/>
+                <div>
+                    <label for="Price"  , class="input-label">Price</label>
+                    <input type="text" name="foodprice" id="price"  , class="input-field"/>
                 </div>
-                <div class="input">
-                    <label for="foodtype", class="input-label">Type of Foods </label>
-                    <select id="foodType" name="foodtype"  , class="input-field" value ="">
+                <div>
+                    <label for="foodtype" , class="input-label">Type of Foods </label>
+                    <select id="foodType" name="foodtype" placeholder="choose food  type" , class="input-field">
                         <option value="Fruit and vegetables">Fruit and vegetables</option>
                         <option value="starchyfood">Starchy food</option>
                         <option value="dairy">Dairy</option>
                         <option value="protein">Protein</option>
                         <option value="fat">Fat</option>
-                        <option value="empty" selected></option>
+                        <option value=" " selected></option>
 
 
                     </select>
                 </div>
 
-                <button type="submit" class="action-button">save</button>
+                <button type="submit"  class="action-button">save</button>
 
             </form>
+       
+      
+
+            <table id="foodtable">
+
+            </table>
 </div>
-            <script src="apps/app.js"></script>
+      
+        <script src="apps/app.js"></script>
     </main>
 
 

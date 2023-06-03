@@ -281,7 +281,7 @@ td {
   
   .input-label {
       color: rgb(68, 68, 68);
-      position: absolute;
+      position: relative;
       top: 1.5rem;
       transition: .25s ease;
   }
