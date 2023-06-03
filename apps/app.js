@@ -35,31 +35,21 @@ let form = document.getElementById('foodForm');
 form.addEventListener('submit', handler);
 function handler(event) {
     event.preventDefault(event);
-    let foodName = document.getElementById('foodName').value;
-    let foodType = document.querySelector('#foodType').value;
-    let price = document.getElementById('price').value;
+    let foodName = event.target.foodName.value;
+    let foodType = event.target.foodType.value;
+
+    let price = event.target.price.value;
     let newForm = new Restaurant(foodName, foodType, price);
     newForm.UniqueID();
     saveData(arrFood);
-   
+
 }
 function saveData(order) {
     let stringObj = JSON.stringify(order);
     localStorage.setItem("formFood", stringObj);
+
 }
 
 
 
 
-//  let saveValues = document.getElementById('foodForm');
-
-// saveValues.addEventListener('submit', function (event) {
-//      event.preventDefault();
-
-// //     let foodName = document.getElementById('foodName').value;
-// //     let foodType = document.querySelector('#foodType').value;
-// //     let price = document.getElementById('price').value;
-// //     let foodTable = new Restaurant(foodName, foodType, price);
-// //     foodTable.UniqueID();
-// //     foodTable.render();
-// // })
